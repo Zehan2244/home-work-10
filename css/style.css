@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+body{
+    font-family: "Arimo", sans-serif, "Abril Fatface", serif;
+}
+
+.container{
+    width:1170px;
+    margin:auto;
+}
+.row{
+    display: flex;
+    flex-wrap:wrap;
+}
+.aligh-center{
+    align-items: center;
+}
+.btn{
+    font-size: 14px;
+    color:#ffff !important; 
+    background: linear-gradient(to right, #02b8ef, #56d1f5);
+    padding: 15px 10px;
+    display: inline-block;
+    border:none;
+} 
+
+.heading h2{
+    font-weight: 800;
+    font-size: 46px;
+    color:#222222;
+    font-family:"Abril Fatface", serif;
+}
+.row p{
+    padding-top: 20px;
+    color:#817f81;
+    line-height: 30px;
+}
+.heading p{
+    color:#777177;
+    margin: auto;
+    padding-bottom: 60px;
+}
+.heading h3{
+    font-size: 32px;
+    color: #222222;
+}
+
+/* common css ends */
+
+/* NAv */
+
+nav{
+    background-color: #fef8ff;
+}
+.row{
+    align-items: center;
+}
+.menu{
+    width:80%;
+    text-align: right;
+}
+nav .menu ul li{
+    display:inline-block;
+}
+nav .menu ul li a{
+    color:#a2a1a2;
+    font-size:16px;
+    display: inline-block;
+    padding: 20px 20px;
+    
+}
+.menu ul li a:hover{
+ color: #13bdf1;
+}
+
+/* Nav ends */
+/* Second phase  */
+
+#start{
+    background-color: #fef8ff;
+}
+.bglogo{
+    margin-left: 200px;
+    padding-top: 50px
+}
+
+/* secpnd phase ends */
+/* catagory start */
+
+#categori{
+    padding:98px 0;
+    text-align: center;
+    line-height: 30px;
+}
+
+/* catagory ends */
+
+.aboutcards{
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 90px;
+    
+}
+.aboutcards .cards{
+    width: 25%;
+    height: 270px;
+    background: #f5f5f5;
+    text-align: center;
+    border-radius: 8px;
+    padding: 60px;
+    transition: 0.5s
+}
+.aboutcards .cards:hover{
+    background-color: rgb(76, 207, 244);
+    transform: scale(1.2);
+ 
+}
+.aboutcards .cards h3{
+    font-size: 24px;
+    color: #222222;
+    font-family: 'Abril Fatface', serif;
+    padding: 10px 0;
+}
+.aboutcards .cards  p{
+    font-size: 14px;
+    font-family: "Arimo", sans-serif;
+    font-weight: 400;
+    color: #777777
+}
+/* work */
+#work {
+    padding: 50px 0;
+    text-align: center;
+}
+#work .worker {
+    padding-top: 70px;
+}
+#work .worker .cards {
+    width: 33.33%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    padding: 0 10px 100px;
+    position: relative;
+}
+#work .worker .cards .images {
+    position: relative;
+}
+#work .worker .cards:hover span {
+    transform: scale(1.2);
+}
+#work .worker .cards h4 {
+    font-size: 20px;
+    color: #222222;
+    font-family: 'Abril Fatface', serif;
+    margin: 20px 0 25px
+}
+#work .worker .cards p{
+    font-size: 16px;
+    color: #444444;
+    font-family: "Arimo", sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+}
+#human{
+    text-align: center;
+}
+
+/* logo */
+
+#logos{
+    text-align: center;
+    padding: 160px 0 100px 0
+
+}
+#logos .row{
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.partner{
+    width: 50%;
+}
+.part{
+    width: 40%;
+    padding-top: 40px;
+}
+.partnership{
+    width: 50%;
+    text-align: right;
+    padding: 20px;
+    
+}
+.partnership :nth-child(1){
+    border-top: none;
+    border-left: none;
+}
+.partnership :nth-child(2){
+    border-top: none;
+    border-left: none;
+}
+.partnership :nth-child(3){
+    border-top: none;
+    border-left: none;
+}
+.partnership :nth-child(4){
+    border-top: none;
+    border-left: none;
+}
+.partnership h1{
+    font-size: 46px;
+    font-weight: 400;
+    padding-right: 20px;
+}
+.partnership h2{text-align: left;
+    font-size: 46px;
+    font-weight: 400;
+    padding-left: 20px;
+
+}
+.partnership h4{
+    font-size: 24px;
+    font-weight: 400;
+    padding-right: 20px;
+}
+.partnership h5{
+    text-align: left;
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+.themeforest{
+    width: 46%;
+    padding: 20px;
+}
+.docean{
+    width: 46%;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.audiojungle{
+    width: 46%;
+    padding: 20px;
+    margin-top: 20px;
+}
+.photodune{
+   width: 46%; 
+   padding:20px;
+   margin-top: 20px;
+}
+/* logos end */
+
+/* work ends */
